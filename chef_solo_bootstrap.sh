@@ -41,7 +41,7 @@ rm -rf rubygems-$RUBYGEMS_VERSION
 ## http://wiki.opscode.com/display/chef/Resources#Resources-PasswordShadowHash
 gem install ruby-shadow --no-ri --no-rdoc
 
-gem install chef --no-ri --no-rdoc
+gem install chef --version '~> 10.24.0' --no-ri --no-rdoc
 mkdir -p /etc/chef /var/chef/cookbooks
 touch /etc/chef/solo.rb
 
