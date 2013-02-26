@@ -26,7 +26,7 @@ rm -rf ruby-$RUBY_VERSION
 
 
 # Install RubyGems
-RUBYGEMS_VERSION=2.0.0
+RUBYGEMS_VERSION=1.8.5
 wget -v http://production.cf.rubygems.org/rubygems/rubygems-$RUBYGEMS_VERSION.tgz
 tar -xzf rubygems-$RUBYGEMS_VERSION.tgz
 cd rubygems-$RUBYGEMS_VERSION
