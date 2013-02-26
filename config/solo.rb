@@ -1,0 +1,1 @@
+json_attribs '/etc/chef/node.json'
