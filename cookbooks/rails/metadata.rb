@@ -1,0 +1,6 @@
+maintainer        "Marius Butuc"
+maintainer_email  "marius.butuc@gmail.com"
+description       "Configures rails applications"
+version           "0.1"
+depends           "nginx"
+depends           "unicorn"
