@@ -16,10 +16,6 @@ directory "#{deploy_to}" do
   owner 'vagrant'
 end
 
-directory "#{deploy_to}" + '/current' do
-  owner 'vagrant'
-end
-
 %w(config log tmp sockets pids).each do |dir|
   directory "#{deploy_to}/shared/#{dir}" do
     recursive true # mkdir -p
