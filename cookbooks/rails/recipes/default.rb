@@ -2,6 +2,7 @@
 include_recipe "nginx"
 include_recipe "unicorn"
 include_recipe "postgresql::server"
+include_recipe "nodejs"
 
 gem_package "bundler" do
   options("--no-ri --no-rdoc")
