@@ -7,5 +7,10 @@
     "name":         "realtime-faye",
     "server_names": "vm.wts.com"
   },
+  "postgresql": {
+    "password": {
+      "postgres": "$1$e6qlDq29$O/gzRZiXSTxbEBY9K0FDh."
+    }
+  },
   "run_list":       ["recipe[rails]"]
 }
